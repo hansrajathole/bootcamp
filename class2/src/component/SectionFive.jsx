@@ -4,7 +4,7 @@ import image2 from '../assets/S-5-image-2.jpg'
 
 const SectionFive = () => {
   return (
-    <div className="mt-6 px-12">
+    <div className="mt-6 px-12 pb-20">
     <div className=" flex gap-5 w-[100%] h-[800px]">
       <div className="left w-[50%] ">
         <div className="top ">
