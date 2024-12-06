@@ -5,6 +5,7 @@ import SectionThree from "./component/SectionThree.jsx";
 import SectionFour from "./component/SectionFour.jsx";
 import SectionFive from "./component/SectionFive.jsx";
 import SectionSix from "./component/SectionSix.jsx";
+import SectionSeven from "./component/SectionSeven.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <SectionFour/>
       <SectionFive/>
       <SectionSix/>
+      <SectionSeven/>
     </div>
   );
 }

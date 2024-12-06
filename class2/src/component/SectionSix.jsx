@@ -21,15 +21,15 @@ const SectionSix = () => {
         </div>
       </div>
       <div className="middle mt-9 flex gap-4">
-        <div className="card h-[500px] w-[25%]">
-          <div className="top h-[60%]  overflow-hidden">
+        <div className="group card h-[500px] w-[25%]">
+          <div className="group top h-[60%]  overflow-hidden">
             <img
               src={card1}
               alt=""
-              className="object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
+              className="object-cover rounded-tl-[2em] group-hover:rounded-[5em]  ease-in duration-200 rounded-tr-[2em] h-[100%] w-[100%]"
             />
           </div>
-          <div className="bottom h-[40%] p-8 flex flex-col justify-between bg-purple-400 rounded-bl-[2em] rounded-br-[2em]  text-white">
+          <div className="group group-hover:rounded-[5em] ease-in duration-200 bottom h-[40%] p-8 flex flex-col justify-between bg-[#AA81B7] rounded-bl-[2em] rounded-br-[2em]  text-white">
             <div className="flex justify-between">
               <button className="text-2xl font-semibold">Brand Story</button>
               <i class="ri-arrow-right-line ml-3"></i>
@@ -40,15 +40,15 @@ const SectionSix = () => {
             </p>
           </div>
         </div>
-        <div className="card h-[500px] w-[25%]">
-          <div className="top h-[60%]  overflow-hidden">
+        <div className="group card h-[500px] w-[25%]">
+          <div className="group top h-[60%]  overflow-hidden">
             <img
               src={card2}
               alt=""
-              className="object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
+              className="group-hover:rounded-[5em] ease-in duration-200 object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
             />
           </div>
-          <div className="bottom h-[40%] p-8 flex flex-col justify-between bg-zinc-950 rounded-bl-[2em] rounded-br-[2em]  text-white">
+          <div className="group group-hover:rounded-[5em] ease-in duration-200 bottom h-[40%] p-8 flex flex-col justify-between bg-[#10100F] rounded-bl-[2em] rounded-br-[2em]  text-white">
             <div className="flex justify-between">
               <button className="text-2xl font-semibold">Brand Story</button>
               <i class="ri-arrow-right-line ml-3"></i>
@@ -59,15 +59,15 @@ const SectionSix = () => {
             </p>
           </div>
         </div>
-        <div className="card h-[500px] w-[25%]">
-          <div className="top h-[60%]  overflow-hidden">
+        <div className="group card h-[500px] w-[25%]">
+          <div className="group top h-[60%]  overflow-hidden">
             <img
               src={card3}
               alt=""
-              className="object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
+              className="group-hover:rounded-[5em] ease-in duration-200 object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
             />
           </div>
-          <div className="bottom h-[40%] p-8 flex flex-col justify-between bg-green-400 rounded-bl-[2em] rounded-br-[2em]  text-white">
+          <div className="group group-hover:rounded-[5em] ease-in duration-200 bottom h-[40%] p-8 flex flex-col justify-between bg-[#36A96A] rounded-bl-[2em] rounded-br-[2em]  text-white">
             <div className="flex justify-between">
               <button className="text-2xl font-semibold">Brand Story</button>
               <i class="ri-arrow-right-line ml-3"></i>
@@ -78,15 +78,15 @@ const SectionSix = () => {
             </p>
           </div>
         </div>
-        <div className="card h-[500px] w-[25%]">
-          <div className="top h-[60%] group-hover:rounded-[5em] overflow-hidden">
+        <div className="group card h-[500px] w-[25%]">
+          <div className="group top h-[60%]  overflow-hidden">
             <img
               src={card4}
               alt=""
-              className="object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
+              className="group-hover:rounded-[5em] ease-in duration-200 object-cover rounded-tl-[2em] rounded-tr-[2em] h-[100%] w-[100%]"
             />
           </div>
-          <div className="bottom h-[40%]  p-8 flex flex-col justify-between bg-orange-400 rounded-bl-[2em] rounded-br-[2em]  text-white">
+          <div className="group group-hover:rounded-[5em] ease-in duration-200 bottom h-[40%]  p-8 flex flex-col justify-between bg-[#FA8A58] rounded-bl-[2em] rounded-br-[2em]  text-white">
             <div className="flex justify-between">
               <button className="text-2xl font-semibold">Brand Story</button>
               <i class="ri-arrow-right-line ml-3"></i>
