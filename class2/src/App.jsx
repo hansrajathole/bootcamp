@@ -3,6 +3,7 @@ import SectionOne from "./component/SectionOne.jsx";
 import SectionTwo from "./component/SectionTwo.jsx";
 import SectionThree from "./component/SectionThree.jsx";
 import SectionFour from "./component/SectionFour.jsx";
+import SectionFive from "./component/SectionFive.jsx";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <SectionTwo/>
       <SectionThree/>
       <SectionFour/>
+      <SectionFive/>
     </div>
   );
 }
