@@ -10,7 +10,7 @@ const SectionOne = () => {
 
             <div className='flex text-center items-center gap-8 '>
             <h1>hearts </h1>
-            <img src={logo} alt="" className=' rotate-45 w-16 h-16 mt-8' />
+            <img src={logo} alt="" className=' rotate-45 w-16 h-16 mt-8 animate' />
             </div>
         </div>
         <div className=' w-[30%] flex flex-col justify-end items-end gap-11 pr-20'>

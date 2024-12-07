@@ -6,6 +6,7 @@ import SectionFour from "./component/SectionFour.jsx";
 import SectionFive from "./component/SectionFive.jsx";
 import SectionSix from "./component/SectionSix.jsx";
 import SectionSeven from "./component/SectionSeven.jsx";
+import Footer from "./component/Footer.jsx";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <SectionFive/>
       <SectionSix/>
       <SectionSeven/>
+      <Footer/>
     </div>
   );
 }

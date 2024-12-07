@@ -106,7 +106,7 @@ const SectionSix = () => {
           serieus. Vanuit daar ontstaat enthousiasme, trots en het
           zelfvertrouwen om jouw merk de uitstraling te geven die het verdient.
         </p>
-        <button className="mt-5 bg-black text-white rounded-[1em] font-semibold p-3 px-5">Contact <i class="ri-arrow-right-line ml-3"></i></button>
+        <button className="mt-5 bg-black text-white rounded-[1em] font-semibold p-3 px-5 hover:rounded-[2em] ease-linear duration-300 ">Contact <i class="ri-arrow-right-line ml-3"></i></button>
       </div>
     </div>
   );

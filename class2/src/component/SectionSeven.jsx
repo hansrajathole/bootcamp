@@ -41,7 +41,7 @@ const SectionSeven = () => {
                 </div>
             </div>
             <div className='flex justify-end'>
-                <img src={circle} alt="" />
+                <img src={circle} alt="" className='animate' />
             </div>
         </div>
     </div>
