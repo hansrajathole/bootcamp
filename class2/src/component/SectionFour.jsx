@@ -14,8 +14,8 @@ const SectionFour = () => {
             <h2 className='text-xl font-semibold'>De smaak van thuis</h2>
         </div>
         <div className='flex  gap-6  uppercase text-sm'>
-            <h2 className='border-2 border-black px-3 rounded-lg'>Brand story</h2>
-            <h2 className='border-2 border-black px-3 rounded-lg'>Merkidentiteit</h2>
+            <h2 className='border-[1px] border-black px-3 rounded-lg'>Brand story</h2>
+            <h2 className='border-[1px] border-black px-3 rounded-lg'>Merkidentiteit</h2>
         </div>
     </div>
   )

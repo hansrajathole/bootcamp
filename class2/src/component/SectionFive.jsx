@@ -21,13 +21,13 @@ const SectionFive = () => {
             <h2 className="text-xl font-semibold">Creating mood-boosting experiences</h2>
           </div>
           <div className="flex  gap-6  uppercase text-sm mt-4">
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
               Brand story
             </h2>
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
               Merkidentiteit
             </h2>
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
               Webdesign
             </h2>
           </div>
@@ -44,13 +44,13 @@ const SectionFive = () => {
             <h2 className="text-xl font-semibold">Campaigners for eventful brands</h2>
           </div>
           <div className="flex  gap-6  uppercase text-sm">
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
               Brand story
             </h2>
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
               Merkidentiteit
             </h2>
-            <h2 className="border-2 border-black px-3 rounded-lg">
+            <h2 className="border-[1px] border-black px-3 rounded-lg">
                 Webdesign
             </h2>
           </div>
@@ -58,7 +58,7 @@ const SectionFive = () => {
     </div>
     <div className="flex justify-between gap-36 p-5 bg-white rounded-[1em] w-[50%] items-center">
         <h2 className="font-bold">Ook aan de slag met jouw merk?</h2>
-        <button className="border-2 font-bold border-black rounded-[1em] p-3 hover:rounded-[2em] ease-linear duration-300">Let's Meet <i class="ri-arrow-right-line ml-4"></i></button>
+        <button className="border-[1px] font-bold border-black rounded-[1em] p-3 hover:rounded-[2em] ease-linear duration-300">Let's Meet <i class="ri-arrow-right-line ml-4"></i></button>
     </div>
     </div>
   );

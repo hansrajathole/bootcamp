@@ -1,13 +1,15 @@
 import React from 'react'
 import image1 from '../assets/S-7-image.webp'
 import circle from '../assets/circle.svg'
+import happy from '../assets/happy-face.png'
 
 const SectionSeven = () => {
   return (
     <div className='px-12 bg-white pb-10'>
-        <div className='flex flex-col justify-center items-center text-center'>
+        <div className='relative flex flex-col justify-center items-center text-center'>
             <p className='font-semibold'>Our belief</p>
-            <h1 className='text-9xl font-bold uppercase pt-8'>Brands just want To have fun</h1>    
+            <h1 className='text-9xl font-bold uppercase pt-8'>Brands just want To have fun</h1> 
+            <img src={happy} alt="" className=' absolute right-[10%] top-[60%] animate rounded-[50%] w-[150px] h-[150px]' />   
         </div>
         <div className='mt-[4em]'>
             <img src={image1} alt="" className='rounded-[8em]'/>

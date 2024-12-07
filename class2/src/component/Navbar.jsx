@@ -32,9 +32,9 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='flex justify-between gap-4 text-center text-xl ease-in'>
-                <li className=' border-2 border-black px-4 py-1.5 rounded-2xl hover:bg-black hover:text-white ease-in duration-300' ><a href="#" className='opacity-80'>Project</a></li>
-                <li className=' border-2 border-black px-4 py-1.5 rounded-2xl  hover:bg-black hover:text-white  ease-in duration-300'><a href="#" className='opacity-80'>Over</a></li>
-                <li className=' border-2 border-black px-4 py-1.5 rounded-2xl font-semibold underline  hover:bg-black hover:text-white  ease-in duration-300'><a href="#">Contact</a></li>
+                <li className=' border-[1px] border-black px-4 py-1.5 rounded-2xl hover:bg-black hover:text-white ease-in duration-300' ><a href="#" className='opacity-80'>Project</a></li>
+                <li className=' border-[1px] border-black px-4 py-1.5 rounded-2xl  hover:bg-black hover:text-white  ease-in duration-300'><a href="#" className='opacity-80'>Over</a></li>
+                <li className=' border-[1px] border-black px-4 py-1.5 rounded-2xl font-semibold underline  hover:bg-black hover:text-white  ease-in duration-300'><a href="#">Contact</a></li>
             </ul>
         </div>
 
