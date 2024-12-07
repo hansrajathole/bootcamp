@@ -15,7 +15,7 @@ const SectionSix = () => {
           </h1>
         </div>
         <div className="left flex items-end">
-          <button className="text-white bg-black p-3 rounded-[1em] font-bold">
+          <button className="text-white bg-black p-3 rounded-[1em] hover:rounded-[2em] ease-linear duration-300 font-bold">
             Lees meer <i class="ri-arrow-right-line ml-3"></i>
           </button>
         </div>

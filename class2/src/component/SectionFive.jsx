@@ -11,7 +11,7 @@ const SectionFive = () => {
       <div className="left w-[50%] ">
         <div className="top ">
           <div className="group relative w-[100%]">
-            <img src={image2} alt="" className="group-hover:scale-[1.06] relative group object-cover w-[96%] rounded-[2em]  hover:rounded-[4em] ease-linear duration-200"/>
+            <img src={image2} alt="" className="group-hover:scale-[1.06] relative group object-cover w-[96%] rounded-[2em]  group-hover:rounded-[4em] ease-linear duration-200"/>
             <img src={Down} alt="" className="group group-hover:opacity-100  ease-linear duration-200 absolute h-[300px] w-[400px] top-[13%] left-[20%] opacity-0 rounded-[40px]"/>
           </div>
           <div >
@@ -35,7 +35,7 @@ const SectionFive = () => {
         
       </div>
       <div className="relative group right w-[50%] flex flex-col gap-4 ">
-            <img src={image1} alt="" className="group group-hover:scale-[1.06] object-cover w-full h-[80%] hover:rounded-[5em] ease-linear duration-200"  />
+            <img src={image1} alt="" className="group group-hover:scale-[1.06] object-cover w-full h-[80%] group-hover:rounded-[5em] ease-linear duration-200"  />
             <img src={hover} alt="" className="group group-hover:opacity-100 ease-linear duration-200 absolute top-[15%] left-[30%] w-[350px] h-[400px] rounded-[4em] opacity-0" />
             <div className="">
             <h2 className="font-semibold text-lg opacity-70 text-gray-400">
