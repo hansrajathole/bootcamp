@@ -94,8 +94,8 @@ function App() {
         <h1>Employee id Cards</h1>
       </div>  
       <div className=" flex flex-wrap justify-center gap-6">
-        {cards.map((card, index) => (
-          <div
+        {cards.map((card, index) => {
+         return <div
             key={index}
             className="bg-white shadow-lg rounded-lg overflow-hidden w-64"
           >
@@ -110,7 +110,7 @@ function App() {
               <p className="text-gray-600 mt-2">Id : {card.id}</p>
             </div>
           </div>
-        ))}
+})}
       </div>
     </div>
   );
