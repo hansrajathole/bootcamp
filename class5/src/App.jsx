@@ -29,6 +29,7 @@ const App = () => {
         onChange={(e)=>setname(e.target.value)}
         type="text" placeholder='enter your name'
         className='p-2 border border-gray-700 rounded-md' />
+
         <input 
         value={image}
         onChange={(e)=>setimage(e.target.value)}
@@ -40,6 +41,7 @@ const App = () => {
         onChange={(e)=>setposition(e.target.value)}
         type="text" placeholder='enter your position'
         className='p-2 border border-gray-700 rounded-md' />
+        
         <input 
         value={id}
         onChange={(e)=>setid(e.target.value)}
