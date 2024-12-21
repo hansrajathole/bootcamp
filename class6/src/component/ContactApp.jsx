@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 
 const ContactFormApp = () => {
-  // State for form data and contacts list
+ 
   const [name, setname] = useState("")
   const [company, setcompany] = useState("")
   const [phone, setphone] = useState("")
@@ -24,7 +24,9 @@ const ContactFormApp = () => {
         setname("")
         setcompany("")
         setphone("")
-        setfavorite(false)  
+        setfavorite(false) 
+        
+        
       
   };
 
@@ -94,7 +96,8 @@ const ContactFormApp = () => {
           <input
             type="checkbox"
             name="favorite"
-            onChange={(e) => setfavorite(e.target.value)}
+            checked={favorite}
+            onChange={(e) => setfavorite(e.target.checked)}
             className="mr-2 w-5 h-5"
           />
           <label className="text-gray-700">Favorite</label>
