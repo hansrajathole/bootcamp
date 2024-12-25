@@ -5,7 +5,7 @@ function App() {
   const [role, setrole] = useState("")            
   const [image, setImage] = useState("");          
   const [id, setid] = useState(""); 
-  const [cards, setCards] = useState([{name: "Hansraj Athole", image : "https://i.pinimg.com/736x/0f/fe/06/0ffe063ec2dcaf4145f886804e45d0d8.jpg", role : "Software Engineer" , id : 203164613653},{name : "Manish Chaudhary", image: "https://i.pinimg.com/736x/0a/7a/04/0a7a045439a12a9e50644af8d6a3e52a.jpg", role : "Web Developer", id : 12346798532199}]); 
+  const [cards, setCards] = useState([{name: "kazi mohib ", image : "https://i.pinimg.com/736x/0f/fe/06/0ffe063ec2dcaf4145f886804e45d0d8.jpg", role : "Software Engineer" , id : 203164613653},{name : "Manish Chaudhary", image: "https://i.pinimg.com/736x/0a/7a/04/0a7a045439a12a9e50644af8d6a3e52a.jpg", role : "Web Developer", id : 12346798532199}]); 
   
   
   const handleSubmit = (e) => {
