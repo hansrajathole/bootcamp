@@ -9,12 +9,12 @@ const App = () => {
   const themeRef = useRef(null)
   // localStorage.clear()
 
-  const [mode, setmode] = useState(localStorage.getItem("theme"))
+  const [mode, setmode] = useState(localStorage.getItem("theme")?"dark":localStorage.setItem("theme","light"))
   console.log(mode);
   
   function themeHandler(){
     if(mode === "light"){
-      localStorage.setItem("theme","dard")
+      localStorage.setItem("theme","dark")
       setmode("dark")
     }else{
       localStorage.setItem("theme","light")
