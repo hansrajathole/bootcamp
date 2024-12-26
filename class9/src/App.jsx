@@ -1,17 +1,36 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
+import { useRef } from 'react'
 
 const App = () => {
 
 
-  // const themeRef = useRef(null)
-  // localStorage.setItem("theme","light")
-  localStorage.clear()
+  const themeRef = useRef(null)
+  // localStorage.clear()
 
-  const [mode, setmode] = useState(localStorage.getItem("theme")=="light"?"light":localStorage.setItem("theme","light"))
+  const [mode, setmode] = useState(localStorage.getItem("theme"))
+  console.log(mode);
+  
+  function themeHandler(){
+    if(mode === "light"){
+      localStorage.setItem("theme","dard")
+      setmode("dark")
+    }else{
+      localStorage.setItem("theme","light")
+      setmode("light")
+    }
+
+  }
+
+
+  useEffect(() => {
+    themeRef.current.setAttribute("id",mode)
+  }, [mode])
+  
 
   return (
-    <div className='h-screen w-full p-2' >
+    <div ref={themeRef} className='h-screen w-full p-2' >
      <div>
      <div className='flex justify-between text-xl font-semibold p-4'>
         <h1>Hansraj</h1>
@@ -19,7 +38,9 @@ const App = () => {
           <h2>About</h2>
           <h2>services</h2>
           <h2>Contact</h2>
-          <h2 className='bg-slate-600 p-2 rounded-md text-white cursor-pointer active:scale-90'>Mode</h2>
+          <h2 onClick={()=>{
+            themeHandler()
+          }} className='bg-slate-600 p-2 rounded-md text-white cursor-pointer active:scale-90'>Mode</h2>
         </div>
       </div>
      </div>
