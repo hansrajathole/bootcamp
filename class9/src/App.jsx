@@ -9,8 +9,8 @@ const App = () => {
   const themeRef = useRef(null)
   // localStorage.clear()
 
-  const [mode, setmode] = useState(localStorage.getItem("theme")?"dark":localStorage.setItem("theme","light"))
-  console.log(mode);
+  const [mode, setmode] = useState(localStorage.getItem("theme"))
+  
   
   function themeHandler(){
     if(mode === "light"){
