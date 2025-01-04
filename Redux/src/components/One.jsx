@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { add } from '../store/reducers/ProductSlice'
+import { add } from '../store/actions/productActions'
 const One = () => {
 
     const {data} =  useSelector((state)=>state.products)
@@ -27,6 +27,7 @@ const One = () => {
             <h2>{elem.id}</h2>
             <h2>{elem.price}</h2>
             <button onClick={AddHandler}>add </button>
+            <button onClick={AddHandler}>remove </button>
             <br />
             <br />
         </div>

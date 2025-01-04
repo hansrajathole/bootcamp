@@ -6,26 +6,6 @@ const initialState = {
             product : "iphone",
             price : 12324
         },
-        {   
-            id: 23,
-            product : "mac",
-            price : 12324
-        },
-        {   
-            id: 23,
-            product : "vivophone",
-            price : 12324
-        },
-        {   
-            id: 23,
-            product : "mobile",
-            price : 12324
-        },
-        {   
-            id: 23,
-            product : "bike",
-            price : 12324
-        },
     ],
 }
 
@@ -38,7 +18,12 @@ const productSlice = createSlice({
             state.data.push(action.payload)
             
         },
+        remove : (state , action)=>{
+            setTimeout(()=>{
+                Set.data.pop()
+            },2000)
+        }
     },
 })
 export default productSlice.reducer;
-export const {add} = productSlice.actions;
+export const {add , remove} = productSlice.actions;
