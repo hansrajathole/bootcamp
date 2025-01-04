@@ -1,15 +1,26 @@
-// import { add } from "../reducers/ProductSlice";
-// export const add = add;
+// // for all the sync actions or the actions not involved in API calls.
+// export { add } from "../reducers/productSlice";
 
-//for all the syns actions or the actions not involved in API calls
-export {add} from "../reducers/ProductSlice";
-import { remove } from "../reducers/ProductSlice";
+// import { remove, getdata } from "../reducers/productSlice";
 
+// // export const asyncremove = function () {
+// //     return function () {};
+// // };
 
-// export const asynsremove = function (){
-//     return function (){
-
+// export const asyncgetproducts = () => async (dispatch, getState) => {
+//     try {
+//         const response = await fetch("https://fakestoreapi.com/products");
+//         const data = await response.json();
+//         dispatch(getdata(data));
+//     } catch (error) { 
+//         console.log(error);
 //     }
-// }
+// };
 
-export const asynsremove = () => ()=>{}
+// export const asyncremove = () => async (dispatch, getState) => {
+//     const state = getState();
+//     setTimeout(() => {
+//         // sync action
+//         dispatch(remove());
+//     }, 2000);
+// };
